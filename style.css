@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    color: #3070d9;
+    font-size: 40px;
+    font-weight: 600;
+    box-shadow: 0 8px 8px -8px black;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ input[type=text]{
+     width: 50%;
+     margin-top: 20px;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     resize: vertical;
+ }
+ button{
+     margin-top: 25px;
+     background: #3070d9;
+     color: #fff;
+     border-radius: 20px;
+     margin-left: 10px;
+     padding: 15px 35px;
+     border: 2px solid #fff;
+     font-weight: bold;
+     cursor: pointer;
+
+ }
+ button:hover{
+     border:2px solid#cdd5df;
+ }
+ .main{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    border: solid #c6cacf;
+
+ }
+ .item:hover{
+     box-shadow: 0 8px 8px -8px #c6cacf;
+
+ }
+ .details{
+     
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 20px;
+     padding: 2%;
+     margin: 1%;
+ }
+ .title{
+     font-weight: bold;
+     color: #3070d9;
+     font-size: 20px;
+
+ }
+ .list{
+     font-weight: bold;
+     font-size: 20px;
+     padding-top: 10px;
+
+ }
+
+ @media only screen and (min-width: 350px) and (max-width: 480px){
+     
+    .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    border: solid #c6cacf;
+
+ }
+ }
